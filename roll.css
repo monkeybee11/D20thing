@@ -1,0 +1,196 @@
+#roll{
+	margin: auto;
+	width: 800px;
+	height: 600px;
+	border: 1px solid black;
+	position: relative;
+	overflow: hidden;
+}
+
+.rollbutton{
+	text-align: center;
+	font-size: 50px;
+	width: 800px;
+	height: 600px;
+	top: 0px;
+	left: 0px;
+	background: purple;
+	z-index: 5;
+}
+
+.startroll{
+	height: 0px;
+	width: 0px;
+	font-size: 0px;
+}
+
+.afterroll{
+	height: 100px;
+	width: 800px;
+}
+
+#gif1{
+	width: 800px;
+	height: 600px;
+	z-index: 10;
+}
+
+.roll1 {
+	background: url(img/gif/D20_1.gif)
+}
+
+.roll2 {
+	background: url(img/gif/D20_2.gif)
+}
+
+.roll3 {
+	background: url(img/gif/D20_3.gif)
+}
+
+.roll4 {
+	background: url(img/gif/D20_4.gif)
+}
+
+.roll5 {
+	background: url(img/gif/D20_5.gif)
+}
+
+.roll6 {
+	background: url(img/gif/D20_6.gif)
+}
+
+.roll7 {
+	background: url(img/gif/D20_7.gif)
+}
+
+.roll8 {
+	background: url(img/gif/D20_8.gif)
+}
+
+.roll9 {
+	background: url(img/gif/D20_9.gif)
+}
+
+.roll10 {
+	background: url(img/gif/D20_10.gif)
+}
+
+.roll11 {
+	background: url(img/gif/D20_11.gif)
+}
+
+.roll12 {
+	background: url(img/gif/D20_12.gif)
+}
+
+.roll13 {
+	background: url(img/gif/D20_13.gif)
+}
+
+.roll14 {
+	background: url(img/gif/D20_14.gif)
+}
+
+.roll15 {
+	background: url(img/gif/D20_15.gif)
+}
+
+.roll16 {
+	background: url(img/gif/D20_16.gif)
+}
+
+.roll17 {
+	background: url(img/gif/D20_17.gif)
+}
+
+.roll18 {
+	background: url(img/gif/D20_18.gif)
+}
+
+.roll19 {
+	background: url(img/gif/D20_19.gif)
+}
+
+.roll20 {
+	background: url(img/gif/D20_20.gif)
+}
+
+.png1 {
+	background: url(img/png/D20_1.png)
+}
+
+.png2 {
+	background: url(img/png/D20_2.png)
+}
+
+.png3 {
+	background: url(img/png/D20_3.png)
+}
+
+.png4 {
+	background: url(img/png/D20_4.png)
+}
+
+.png5 {
+	background: url(img/png/D20_5.png)
+}
+
+.png6 {
+	background: url(img/png/D20_6.png)
+}
+
+.png7 {
+	background: url(img/png/D20_7.png)
+}
+
+.png8 {
+	background: url(img/png/D20_8.png)
+}
+
+.png9 {
+	background: url(img/png/D20_9.png)
+}
+
+.png10 {
+	background: url(img/png/D20_10.png)
+}
+
+.png11 {
+	background: url(img/png/D20_11.png)
+}
+
+.png12 {
+	background: url(img/png/D20_12.png)
+}
+
+.png13 {
+	background: url(img/png/D20_13.png)
+}
+
+.png14 {
+	background: url(img/png/D20_14.png)
+}
+
+.png15 {
+	background: url(img/png/D20_15.png)
+}
+
+.png16 {
+	background: url(img/png/D20_16.png)
+}
+
+.png17 {
+	background: url(img/png/D20_17.png)
+}
+
+.png18 {
+	background: url(img/png/D20_18.png)
+}
+
+.png19 {
+	background: url(img/png/D20_19.png)
+}
+
+.png20 {
+	background: url(img/png/D20_20.png)
+}
