@@ -1,13 +1,14 @@
-function diceroll(gif1){
-	rollbut.classList.add("startroll");
-	for (var elf = 0; elf < 20; elf++) { 
-		gif1.classList.remove("png"+elf);
-	}
-	var mince_pie = Math.floor(Math.random() * 20) + 1;
-	gif1.classList.toggle("roll"+mince_pie);
-	setTimeout( ()=> {
-		gif1.classList.add("png"+mince_pie);
-		gif1.classList.remove("roll"+mince_pie);
-		rollbut.classList.remove("startroll");
-	}, 4000);
-	}
+function diceroll() {
+    const gifElement = document.querySelector('#gif1');
+    const button = document.querySelector('#rollbut');
+    const mincePie = Math.floor(Math.random() * 20) + 1;
+
+    button.style.display = 'none';
+
+    gifElement.classList.remove(...gifElement.classList);
+    gifElement.classList.add('roll' + mincePie);
+
+    setTimeout(() => {
+        button.style.display = 'block';
+    }, 4000);
+}
