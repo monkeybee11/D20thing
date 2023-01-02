@@ -9,5 +9,5 @@ function diceroll() {
 
     setTimeout(() => {
         button.style.display = 'block';
-    }, 2000);
+    }, 3000);
 }
