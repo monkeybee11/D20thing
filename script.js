@@ -5,10 +5,9 @@ function diceroll() {
 
     button.style.display = 'none';
 
-    gifElement.classList.remove(...gifElement.classList);
-    gifElement.classList.add('roll' + mincePie);
+    gifElement.setAttribute('src', `img/gif/D20_${mincePie}.gif`);
 
     setTimeout(() => {
         button.style.display = 'block';
-    }, 4000);
+    }, 3000);
 }
