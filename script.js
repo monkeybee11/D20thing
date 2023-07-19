@@ -5,7 +5,7 @@ function diceroll() {
 
     button.style.display = 'none';
 
-    gifElement.setAttribute('src', `img/gif/D20_${mincePie}.gif`);
+    gifElement.setAttribute('src', `img/webp/D20_${mincePie}.webp`);
 
     setTimeout(() => {
         button.style.display = 'block';
